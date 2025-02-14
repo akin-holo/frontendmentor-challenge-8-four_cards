@@ -23,6 +23,7 @@ header p {
 /* main */
 main {
    height: 100vh;
+   padding-bottom: 50px;
    margin: auto 2rem;
 }
 .container {
@@ -39,6 +40,11 @@ main {
    background-color: #fff;
    border-radius: 10px;
    box-shadow: 0 15px 10px 0 hsla(212, 86%, 64%, 0.151);
+   font-size: 0.9rem;
+}
+.card h2 {
+   color:  hsl(234, 12%, 34%);
+   text-transform: capitalize;
 }
 .team-card {
    position: absolute;
@@ -55,8 +61,8 @@ main {
 }
 .karma-card {
    position: absolute;
-   bottom: 5%;
-   justify-self: start;
+   bottom: -5px;
+   /* justify-self: start; */
    border-top: 4px solid hsl(34, 97%, 64%);
 }
 .supervisor-card {
